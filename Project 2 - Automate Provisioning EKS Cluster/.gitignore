@@ -1,0 +1,15 @@
+# local terraform directory
+**/.terraform/*
+
+# terraform state files
+*.tfstate
+*.tfstate.*
+
+# terraform var files
+*.tfvars
+
+# Ignore OSX system file
+.DS_Store
+
+# Ignore Crash log
+crash.log
